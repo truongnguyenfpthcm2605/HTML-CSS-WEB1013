@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+div{
+    margin: 0;
+    padding: 5px;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    background: orangered;
+
+    
+
+    
+}
+.menu > li{
+    display: inline-block;
+    
+
+}
+.menu>li>a{
+    font-variant:small-caps;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+
+}
+.menu>li>a:hover{
+    color: yellowgreen;
+}

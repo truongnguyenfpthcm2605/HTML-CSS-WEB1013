@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+.menu{
+    width: 60%;
+    margin: 0 auto;
+}
+.name{
+    margin: 5px;
+    padding: 5px;
+}
+.name .item{
+    display: block;
+    width: 98%;
+    outline: none;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+.name .item:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+
+}
+.name label{
+    font-size: large;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.name button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow:inset 0 0 20px blue;
+    margin: 5px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.name button:hover{
+    color: black;
+    box-shadow: inset 0 0 20px red;
+}

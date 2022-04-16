@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+b {
+  color: brown;
+}
+#doan1,
+#doan4 {
+  color: red;
+}
+#doan2 {
+  color: blue;
+}
+#doan3 {
+  color: green;
+}
+
+p {
+  font-style: italic;
+}

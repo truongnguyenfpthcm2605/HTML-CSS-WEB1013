@@ -1,0 +1,28 @@
+.list {
+  padding: 0px;
+  margin: 5px;
+  border: 2px double gray;
+  box-shadow: 0 0 2px gray;
+  max-width: 50%;
+  border-radius: 10px;
+  list-style: none;
+}
+.list li > a {
+  line-height: 50px;
+  padding-left: 30px;
+  background: url(IMG/ICON1.jfif) no-repeat left center;
+  background-size: 20px;
+  text-decoration: none;
+  color: orangered;
+  font-size: large;
+  border-bottom: 1px dotted orangered;
+  display: block;
+}
+.list > li > a:hover {
+  color: white;
+  font-weight: bold;
+
+  background: url(IMG/ICON2.png) no-repeat left center;
+  background-size: 20px;
+  background-color: orangered;
+}

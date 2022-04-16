@@ -1,0 +1,57 @@
+.container{
+ 
+  margin: 5px;
+  text-align: center;
+}
+.sanpham{
+  
+  border-radius: 15px;
+  padding: 0;
+  margin: 15px;
+  box-shadow: 0 0 7px gray ;
+  text-align: center;
+  position: relative;
+  width: 22.5%;
+  height: 400px;
+  float: left;
+
+}
+.sanpham .name{
+  font-size: large;
+  font-variant: small-caps;
+  color: blue;
+  font-weight: bold;
+}
+.sanpham .image{
+  max-width: 95%;;
+  height: 290px;
+}
+.sanpham .image2{
+  width: 60px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.sanpham .icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+}
+.sanpham .icon >img{
+  width: 40px;
+}
+.sanpham .name2{
+  font-size: 30px;
+  font-weight: bold;
+  color: orangered;
+  position: absolute;
+  left: 5px;
+  bottom:0;
+  text-align: left;
+}
+.sanpham:hover{
+  box-shadow: 0 0 10px blue;
+}
+

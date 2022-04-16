@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+}
+.box{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.menu{
+    border-collapse: collapse;
+}
+.menu th ,td{
+    width: 150px;
+    border: 1px solid aqua;
+    line-height: 40px;
+    text-align: center;
+}
+.menu thead th{
+    color: white;
+    background-color: #396EB0;
+    
+}
+.menu tbody tr:nth-child(2n+1){
+    background-color: #D3DEDC;
+}
+.menu tbody tr:nth-child(2n){
+    background-color: white;
+}

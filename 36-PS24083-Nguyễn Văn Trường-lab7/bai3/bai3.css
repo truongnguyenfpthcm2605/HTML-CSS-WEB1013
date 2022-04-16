@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+header{
+    background: url(IMG/bannerfpt.webp);
+    background-size: 100%;
+    height: 100px;
+    padding-bottom: 25%;
+    position: relative;
+    margin: 0;
+}
+header .list{
+    background-color: orangered;
+    box-shadow: 0 0 10px gray;
+    min-width: 20%;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 30px ;
+    margin: 0;
+    list-style: none;
+    
+}
+.list >li {
+    float: left;
+    margin-top: 15px;
+}
+.list > li >a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-variant: small-caps;
+    word-spacing: 5px;
+    padding: 15px;
+}
+.list >li>a:hover{
+    color: chartreuse;
+
+}
+nav{
+    min-width: 100%;
+    line-height: 40px;
+    background-color: orangered;
+    margin: 0;
+    position: absolute;
+}
+.list1{
+    width: 50%;
+}
+nav .list1 >li{
+    float: left;
+    
+    list-style: none;
+    padding: 10px;
+    
+    
+
+}
+nav .list1>li >a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    
+    
+
+}
+nav .list2{
+    width: 50%;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+nav .list2> li{
+    float: right;
+    
+}
+.list2 >li >a{
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+    padding: 20px;
+    
+}
+
+
+
+

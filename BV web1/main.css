@@ -1,0 +1,150 @@
+html, body{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:#FF8E00 ;
+    height: 80px;
+    padding: 10px;
+    margin: 0;
+}
+nav img{
+    width: 200px;
+    height: auto;
+    
+   
+   
+}
+div.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1572A1;
+    line-height: 40px;
+    
+    
+    
+}
+.menu  ul {
+    margin-left:  20px ;
+
+    
+}
+.menu ul a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+}
+.menu ul  a:hover{
+    transition: all .5s linear;
+    font-size: 22px;
+    color: #FF8E00;
+    font-weight: 500;
+}
+.inputs{
+    margin:  10px 20px 0 0;
+}
+.inputs .input-menu{
+    width: 300px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+.inputs .input-menu:focus{
+    background-color: aqua;
+}
+.inputs button{
+    outline: none;
+    border: none;
+    width: 80px;
+   
+   padding: 8px;
+    border-radius: 10px;
+    color: blueviolet;
+    font-weight: 600;
+}
+.inputs button:hover{
+    background-color: #FF8E00;
+    transition: all .5s linear;
+    transform: scale(1.1);
+    color: aliceblue;
+
+}
+header {
+ width: 100%;
+
+}
+header img{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.item-content{
+    width: 27.5%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.item-content img{
+    width: 100%;
+    margin: 5px;
+}
+.item-content h2{
+    color: #FF8E00;
+}
+footer{
+    width: 100%;
+    
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8BDB81;
+    
+}
+footer .image{
+    width: 20%;
+    margin:20px 20px 0 0 ;
+   
+}
+footer .image img{
+  width: 90%;
+  margin: 10px;
+  padding: 0;
+}
+.address ul{
+   
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+.address ul li{
+    display: block;
+    margin: 5px;
+}
+.address h1{
+    color: #FF8E00;
+    font-size: 20px;
+    margin-bottom:  10px;
+    margin:  10px 0 0 10px;
+}

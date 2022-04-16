@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36-PS24083-Nguyễn Văn Trường</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="menu">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="name">
+                <label for="ten">HỌ VÀ TÊN: </label>
+                <input id="ten"  type="text" class="item">
+            </div>
+            <div class="name">
+                <fieldset>
+                    <legend>Giới Tính:</legend>
+                    
+                    <input id="nam" name="1" type="radio">
+                    <label for="nam">Nam</label>
+                    
+                    <input id="nu" name="1" type="radio">
+                    <label for="nu">Nữ</label>
+
+                </fieldset>
+            </div>
+            <div class="name">
+                <label for="ns">Ngày Sinh: </label>
+                <input id="ns" type="date" class="item">
+            </div>
+            <div class="name">
+                <label for="diem">Điểm :</label>
+                <input id="diem" type="number" min="0.25" max="10" step="0.25" class="item">
+            </div>
+            <div class="name">
+                <label for="job">Nghề Nghiệp: </label>
+                <input list="list" id="job" class="item">
+                <datalist id="list">
+                    <option value="Giám Đốc"></option>
+                    <option value="Bán Hàng"></option>
+                    <option value="Phụ Hồ"></option>
+                </datalist>
+            </div>
+            <div class="name">
+                <fieldset >
+                    <legend>Sở Thích: </legend>
+                    <input type="checkbox" id="1">
+                    <label for="1">THỂ THAO</label>
+                    <input type="checkbox" id="2">
+                    <label for="2">DU LỊCH</label>
+                    <input type="checkbox" id="3">
+                    <label for="3">ÂM NHẠC</label>
+                    <input type="checkbox" id="4">
+                    <label for="4">ẨM THỰC</label>
+                </fieldset>
+            </div>
+            <div class="name">
+                <label for="keep">GHI CHÚ :</label>
+                <textarea name="" id="keep" cols="30" rows="10" class="item"></textarea>
+            </div>
+            <hr>
+            <div class="name">
+              <button>Đăng ký</button>
+              <button type="reset">Nhập Lại</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

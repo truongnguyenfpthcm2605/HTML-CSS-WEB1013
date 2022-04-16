@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36-PS24083-Nguyễn Văn Trường</title>
+    <style>
+        .menu{
+            margin: 0;
+            padding: 0;
+            width: 60%;
+            font-variant: small-caps;
+            margin: 0 auto;
+            border: none ;
+            border-radius: 20px;
+            background-color: #91C483;
+            padding: 20px;
+            
+
+
+        }
+        .menu label{
+            margin-bottom: 20px;
+            color: brown;
+            padding-bottom:  10px;
+        }
+        .menu #text {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+        }
+        .menu textarea{
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+        .menu select{
+            width: 390px;
+            height: 30px;
+        }
+        .menu  option{
+            color: #91C483;
+            
+
+        }
+        .menu button{
+           width: 200px;
+           line-height: 40px;
+           margin: 5px;
+           border: none;
+           border-radius: 10px;
+           background-color: rgb(121, 154, 180);
+           color: azure;
+           font-size: large;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label>HỌ VÀ TÊN: </label> <br>
+            <label><input id="text" name="ten" type="text" ></label> <br>
+            <label>GIỚI TÍNH: </label>
+            <label><input name="name" type="radio">NAM</label>
+            <label> <input name="name" type="radio">NỮ </label> <br>
+            <label>HÌNH ẢNH: </label> <br>
+            <label> <input name="file" type="file"></label> <br>
+            <label>QUÓC TỊCH : </label> <br>
+            <div>
+                <select name="list" id="44">
+                    <option value="1">United States</option>
+                    <option value="2">Việt Nam</option>
+                </select>
+            </div>
+            <label>SỞ THÍCH: </label> <br>
+            <label"><input name="check" type="checkbox">THỂ THAO</label>
+            <label"><input name="check" type="checkbox">DU LỊCH</label>
+            <label"><input name="check" type="checkbox">ÂM NHẠC</label>
+            <label"><input name="check" type="checkbox">ẨM THỰC</label> <br>
+            <label>GHI CHÚ : </label> <br>
+            <textarea name="đ" id="rr" cols="100" rows="10"></textarea> <br>
+            <hr>
+            <button type="submit">ĐĂNG KÝ</button>
+            <button type="reset">NHẬP LẠI</button>
+        </form>
+    </div>
+</body>
+</html>
